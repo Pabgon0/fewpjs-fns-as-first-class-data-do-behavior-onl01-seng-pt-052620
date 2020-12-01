@@ -11,6 +11,7 @@ function handleClick(e) {
 
 function greet(timeString) {
   const timeParsed = parseInt(timeString, 10)
+  if 
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
