@@ -15,5 +15,9 @@ function greet(timeString) {
   else if (timeParsed > 17) { return "Good Evening"}
   else return "Good Afternoon"
 }
+
+function displayMessage(string) {
+  document.getElementById("greeting").innerText = string
+}
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
